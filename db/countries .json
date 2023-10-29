@@ -1,6 +1,6 @@
 [
 {"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
-{"type":"database","name":"smartschool"},
+{"type":"database","name":"xxx"},
 {"type":"table","name":"countries","database":"smartschool","data":
 [
 {"id":"1","countryCode":"AD","countryName":"Andorra","countryNameFa":"آندورا","currencyCode":"EUR","fipsCode":"AN","isoNumeric":"020","north":"42.65604389629997","south":"42.42849259876837","east":"1.7865427778319827","west":"1.4071867141112762","capital":"Andorra la Vella","capitalFa":"آندورا لاولا","continentName":"Europe","continent":"EU","languages":"ca","isoAlpha3":"AND","geonameId":"3041565","telephonePrefix":"+376","status":"1","created_at":"2023-10-29 20:31:33","updated_at":"2023-10-29 20:31:33","deleted_at":null},
