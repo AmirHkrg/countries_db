@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `smartschool`
+-- Database: `xxx`
 --
 
 -- --------------------------------------------------------
@@ -28,26 +28,26 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `countries` (
-  `id` bigint(20) UNSIGNED NOT NULL,
-  `countryCode` varchar(191) NOT NULL,
-  `countryName` varchar(191) NOT NULL,
+  `id` bigint(20) UNSIGNED DEFAULT NULL,
+  `countryCode` varchar(191) DEFAULT NULL,
+  `countryName` varchar(191) DEFAULT NULL,
   `countryNameFa` varchar(256) DEFAULT NULL,
-  `currencyCode` varchar(191) NOT NULL,
-  `fipsCode` varchar(191) NOT NULL,
-  `isoNumeric` varchar(191) NOT NULL,
-  `north` varchar(191) NOT NULL,
-  `south` varchar(191) NOT NULL,
-  `east` varchar(191) NOT NULL,
-  `west` varchar(191) NOT NULL,
-  `capital` varchar(191) NOT NULL,
+  `currencyCode` varchar(191) DEFAULT NULL,
+  `fipsCode` varchar(191) DEFAULT NULL,
+  `isoNumeric` varchar(191) DEFAULT NULL,
+  `north` varchar(191) DEFAULT NULL,
+  `south` varchar(191) DEFAULT NULL,
+  `east` varchar(191) DEFAULT NULL,
+  `west` varchar(191) DEFAULT NULL,
+  `capital` varchar(191) DEFAULT NULL,
   `capitalFa` varchar(256) DEFAULT NULL,
-  `continentName` varchar(191) NOT NULL,
-  `continent` varchar(191) NOT NULL,
-  `languages` varchar(191) NOT NULL,
-  `isoAlpha3` varchar(191) NOT NULL,
-  `geonameId` int(11) NOT NULL,
-  `telephonePrefix` varchar(191) NOT NULL,
-  `status` tinyint(4) NOT NULL DEFAULT 1,
+  `continentName` varchar(191) DEFAULT NULL,
+  `continent` varchar(191) DEFAULT NULL,
+  `languages` varchar(191) DEFAULT NULL,
+  `isoAlpha3` varchar(191) DEFAULT NULL,
+  `geonameId` int(11) DEFAULT NULL,
+  `telephonePrefix` varchar(191) DEFAULT NULL,
+  `status` tinyint(4) DEFAULT 1,
   `created_at` timestamp NULL DEFAULT current_timestamp(),
   `updated_at` timestamp NULL DEFAULT current_timestamp(),
   `deleted_at` timestamp NULL DEFAULT NULL
